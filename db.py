@@ -12,6 +12,11 @@ application = mysql.connector.connect(
 #buffered database
 cursor = application.cursor(buffered=True) #make database instance
 
+
+
+
+
+#code
 application.commit()
 
 print("Application")
