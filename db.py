@@ -9,6 +9,7 @@ application = mysql.connector.connect(
   database="CSC315Final2021" #database name
 )
 
+#buffered database
 cursor = application.cursor(buffered=True) #make database instance
 
 application.commit()
